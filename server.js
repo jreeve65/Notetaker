@@ -1,7 +1,7 @@
 const express = require('express'); // imports the express library
 const path = require('path');//importing path library
 const api = require('./routes/index.js');// lets server know about index.js contained in routes file
-const PORT = 3001;//declares port to be used
+const PORT = process.env.PORT|| 3001;//declares port to be used
 const app = express(); // initialized the server
 
 app.use(express.json());// tells the server to use a json format
