@@ -18,6 +18,4 @@ app.get('/notes', (req,res)=>{
 app.get('*',(req,res)=>
 res.sendFile(path.join(__dirname,'/public/index.html'))); // wild card route redirects back to index.html if note taker title is clicked
 
-app.listen(PORT,()=>{
-    console.log(`App listening at http://localhost:${PORT}`);  //sets the server to listen for requests
-})
+app.listen(PORT)
