@@ -22,7 +22,7 @@ A online location to store ones notes for viewing remotely
 App is deployed online using render.
 
 ## Credits
-Front end code provided by edx instructional staff delete function made in collaberation with Amanda Changa
+delete function made in collaberation with Amanda Changa
 
 ## Questions  
 Hi my name is Jordan Reeve for questions regarding this project or my other work you can reach me via:  
